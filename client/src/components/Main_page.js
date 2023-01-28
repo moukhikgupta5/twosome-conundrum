@@ -1,5 +1,8 @@
 import "../assets/css/main_page.css";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 const Main_Page = () => {
+  const temp =  axios.get("https://www.defiant-wear-fox.cyclic.app");
   return (
     <div>
       <link

@@ -11,7 +11,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Main_Page />} />
-          {/* <Route exact path="/clues" element={<Clues_page />} /> */}
           <Route exact path="/register" element={<Registration_form />} />
         </Routes>
       </BrowserRouter>
