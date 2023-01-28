@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ec29dc8.css",
+    "main.js": "/static/js/main.b224c607.js",
+    "static/media/p (1).jpg": "/static/media/p (1).1d14b7eb091d7b822347.jpg",
+    "static/media/p (3).jpg": "/static/media/p (3).c90b2267adcc5267ac70.jpg",
+    "static/media/a.jpg": "/static/media/a.1609e035602eaf742975.jpg",
+    "static/media/g.jpg": "/static/media/g.688f60b5dbc5ebab30fd.jpg",
+    "static/media/h.jpg": "/static/media/h.017959621b94b12fb156.jpg",
+    "static/media/p (2).jpg": "/static/media/p (2).aa52ffd46bc5ebfec5af.jpg",
+    "static/media/e.jpg": "/static/media/e.d24f0498ba1ec74981f3.jpg",
+    "static/media/m.jpg": "/static/media/m.ca90969e807ba8b6572d.jpg",
+    "static/media/b.jpg": "/static/media/b.936093e515f7ed9cf498.jpg",
+    "static/media/l.jpg": "/static/media/l.7a5acc01a2281aa8d3a2.jpg",
+    "static/media/d.jpg": "/static/media/d.804246b613fccd4cb806.jpg",
+    "static/media/3.png": "/static/media/3.17351eb23610fc9879ff.png",
+    "static/media/2(font of overview chg).png": "/static/media/2(font of overview chg).b0469e53489c11ef4f53.png",
+    "static/media/k.jpg": "/static/media/k.421e332d1c058092d539.jpg",
+    "static/media/f.jpg": "/static/media/f.99e052c9f7f98ca1b30c.jpg",
+    "static/media/c.jpg": "/static/media/c.f6c662c505a34bf06bad.jpg",
+    "static/media/n.jpg": "/static/media/n.20692fc93137b19fb5b0.jpg",
+    "static/media/7.png": "/static/media/7.dabd3fd39db6f43e1c0d.png",
+    "static/media/o.jpg": "/static/media/o.458e7220c49223e15d61.jpg",
+    "static/media/j.jpg": "/static/media/j.6f7ae80e77c5c93af0f4.jpg",
+    "static/media/p (4).jpg": "/static/media/p (4).7426edb3416886f40a52.jpg",
+    "static/media/regisbg.png": "/static/media/regisbg.477bbaf1adfcd45f8455.png",
+    "static/media/12.png": "/static/media/12.14309daf3fb55993edfb.png",
+    "static/media/2.png": "/static/media/2.6db9ca326270cf28738e.png",
+    "static/media/1.png": "/static/media/1.119fb22c6593b43b6719.png",
+    "static/media/4.png": "/static/media/4.5fc862e5c58494ce0051.png",
+    "static/media/p (5).jpg": "/static/media/p (5).443d54785f2acbbfa240.jpg",
+    "static/media/i.jpg": "/static/media/i.7263100856a342862bce.jpg",
+    "static/media/logoWhite.png": "/static/media/logoWhite.be0502bb19865320082b.png",
+    "index.html": "/index.html",
+    "main.0ec29dc8.css.map": "/static/css/main.0ec29dc8.css.map",
+    "main.b224c607.js.map": "/static/js/main.b224c607.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ec29dc8.css",
+    "static/js/main.b224c607.js"
+  ]
+}
