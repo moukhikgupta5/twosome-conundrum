@@ -1,0 +1,148 @@
+.registration{
+  /* position: absolute; */
+  display: flex;
+  justify-content: flex-end;
+  /* position: relative; */
+  /* align-content: flex-end; */
+}
+button{
+
+  font-size: 16px;
+  position: relative;
+  bottom:33rem;
+  left:60%;
+  height: 65px;
+  width:290px;
+  border-color: #e74c3c;
+  color: white;
+  background-color: #b40404;
+  box-shadow: 0 0 40px 40px inset, 0 0 0 0 #e74c3c;
+  transition: all 150ms ease-in-out;
+  border-radius: 3em;
+  font-size: 27px;
+font-family: 'Archivo Black', sans-serif;
+
+}
+.main_page{
+  /* position: relative; */
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+
+}
+
+#page1{
+  background-image: url("../images//main_page_images/1.png");
+  height:100vh;
+  display:flex;
+  scroll-snap-align: start;
+  flex-direction: column;
+  /* padding-right: 4rem; */
+  /* margin-left: 2rem; */
+}
+.main_page_links{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  margin-right: 1rem;
+  /* position: absolute; */
+  /* margin-top: 0.5rem; */
+}
+.main_page_links a{
+  border-radius: 0.4rem;
+  background-color:#1F2937;
+  size: 10rem;
+  width: 11rem;
+  height: 2.4rem;
+  /* background-color:rgba(247, 11, 11, 0.435); */
+  color:white
+
+}
+
+.main_page_links a[href='./register']{
+  margin-right: 1.5rem;
+}
+.event_page{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+#carouselExampleIndicators{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 25%;
+  bottom: 34rem;
+  padding-bottom: 0rem;
+}
+#page3{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+#page4{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+#contact_us{
+  overflow: hidden;
+}
+  /* :hover {
+    box-shadow: 0 0 10px 0 #e74c3c inset, 0 0 10px 4px #e74c3c;
+  } */
+.buton_footer{
+  border-radius: 18px;
+  font-size:x-large;
+  color:rgba(247, 11, 11, 0.435);
+}
+.buton_footer a{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buton_footer a:hover{
+  color: black;
+}
+  
+
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position:relative;
+  bottom: 34rem;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
