@@ -72,13 +72,17 @@ background-size: cover;
 .form_container{
 	margin-bottom: 0;
 }
+/* .flex_header label{ */
+	/* font-size: larger; */
+	/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+/* } */
   input[type=text], select, textarea {
 	background: rgba(0, 0, 0, 0.7);
 	color: #ccc;
 	/* width: 100%; */
 	padding: 12px;
 	border: 2px solid #ccc;
-    width: 80%;
+    width: 75%;
 	border-radius: 4px;
 	resize: vertical;
 }
@@ -86,7 +90,7 @@ background-size: cover;
 input[type=email], select, textarea {
     background: rgba(0, 0, 0, 0.7);
 	color: #ccc;
-    width: 80%;
+    width: 75%;
 	/* width: 100%; */
 	padding: 12px;
 	border: 2px solid #ccc;
@@ -101,17 +105,22 @@ input[type=email], select, textarea {
 	padding: 12px;
 	border: 2px solid #ccc;
 	border-radius: 4px;
-    width: 80%;
+    width: 75%;
 	resize: vertical;
 }
 
 label {
-    padding: 12px 12px 12px 0;
+    /* padding: 12px 12px 12px 0; */
 	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
+	background-color: #000000;
+	color: white;
 	color: white;
     width: 20%;
 	padding: 12px 20px;
@@ -121,8 +130,10 @@ input[type=submit] {
 	float: right;
   }
 
+
   input[type=submit]:hover {
-	background-color: #45a049;
+	/* background-color: #45a049; */
+	background-color:rgba(0, 0, 0, 0.7);
   }
 
 	.Submission{
@@ -145,6 +156,11 @@ input[type=submit] {
       top: 0;
 
   } */
+/* h1{
+	font-family: 'Creepster', cursive;
+	/* font-size:larger; */
+
+  /* }  */
   .swal-button-container button{
     position:initial;
     width: 89px;

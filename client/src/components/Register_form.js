@@ -39,7 +39,7 @@ const Registration_form = () => {
       Password,
     };
     const responde = await axios.post(
-      "https://defiant-wear-fox.cyclic.app/signup",
+      "https://twosome-conundrum.cyclic.app/signup",
       participants
     );
     console.log(responde);

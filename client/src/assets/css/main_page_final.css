@@ -1,0 +1,252 @@
+.registration{
+    position: fixed;
+    padding-left: 78%;
+  }
+  .main_page{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .event_page{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+ 
+    /* background-image: url("../images//main_page_final_images/1.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+  /* } */
+  
+  /* #container{
+    overflow: hidden;
+    height:auto;
+  }
+  
+  .gallery{
+    position: relative;
+    bottom:17rem;
+  } */
+  
+  
+  #page3{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  #Sponsers{
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+    height: 110vh;
+  }
+  
+  .sponsers{
+    margin: 0;
+  }
+  
+  .btn1{
+    position: relative;
+    bottom: 26rem;
+    left: 6%;
+    height: 7rem;
+    width:10rem;
+    background-color:rgba(0,0,0,0);
+    border: 0rem;
+    color: rgba(0,0,0,0);
+  
+  }
+  #Sponsers {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images//main_page_final_images/oursponsers.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+  }
+  .sponsers h1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top:2%;
+    font-family:"fangs";
+    font-weight:bolder;
+    font-size:500%;
+    color:#7e0e0e;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  }
+  .top_layer_sponsers{
+    display: flex;
+    justify-content:space-around;
+    margin-top:88px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+  }
+  .sponser_logo_images{
+ width: 280px;
+ padding-left: 2px;
+ padding-right: 2px;
+  }
+  /* .grabonsponser{
+    width: 100%;
+  } 
+  
+ .elearner_sponser{
+    width:400px ;
+  } */
+/* .arrowsponser{
+  width: 250px;
+} */
+  
+  .btn2{
+    position: relative;
+    bottom: 26rem;
+    left: 16%;
+    height: 7rem;
+    width:30rem;
+    background-color:rgba(0,0,0,0);
+    border: 0rem;
+    color: rgba(0,0,0,0);
+  
+  }
+  
+  .btn3{
+    position: relative;
+    bottom: 26rem;
+    left: 20%;
+    height: 7rem;
+    width:20rem;
+    background-color:rgba(0,0,0,0);
+    border: 0rem;
+    color: rgba(0,0,0,0);
+  
+  }
+  
+  .btn4{
+    position: relative;
+    bottom: 13rem;
+    right: 73%;
+    height: 5rem;
+    width:17rem;
+    background-color:rgba(0,0,0,0);
+    border: 0rem;
+    color: rgba(0,0,0,0);
+  
+  }
+  
+  .btn5{
+    position: relative;
+    bottom: 21rem;
+    left: 34.5%;
+    height: 8rem;
+    width:22rem;
+    background-color:rgba(0,0,0,0);
+    border: 0rem;
+    color: rgba(0,0,0,0);
+  
+  }
+  
+  .btn6{
+    position: relative;
+    bottom: 21rem;
+    left: 51%;
+    height: 10rem;
+    width:10rem;
+    background-color:rgba(0,0,0,0);
+    border: 0rem;
+    color: rgba(0,0,0,0);
+  
+  }
+  
+  .contact_us{
+    overflow: hidden;
+    height: 58vh;
+    /* position: relative;
+    bottom:17rem; */
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position:relative;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .button{
+  
+    font-size: 20px;
+    position: relative;
+    bottom:15rem;
+    left:62%;
+    height: 50px;
+    width:230px;
+    border-color: #e74c3c;
+    color:white;
+    text-decoration: inherit white;
+    background-color:#b40404;
+    color: #b40404;
+   
+    transition: all 150ms ease-in-out;
+    border-radius: 3em;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+.button a{
+    color: white;
+    text-decoration: none;
+  
+}
+.button:hover {
+        color:white;
+      box-shadow: 0 0 10px 0 #e74c3c inset, 0 0 10px 4px #e74c3c;
+    }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  /* #page5 img{ */
+    /* background-image: url("../images/main_page_final_images//6.png"); */
+    /* background-size: cover; */
+
+    /* background-repeat: no-repeat;  */
+    /* height:100vh; */
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* scroll-snap-align: start; */
+    /* flex-direction: column; */
+
+  /* } */
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
