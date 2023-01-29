@@ -3,7 +3,15 @@ import "../assets/css/form_register.css";
 import swal from "sweetalert";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import React, { useEffect } from 'react';
+
 const Registration_form = () => {
+  const makeActive = axios.get(
+    "https://twosome-conundrum.cyclic.app"
+  );
+  useEffect(() => {
+    document.title = 'Register|Twosome-Conundrum';
+  }, []);
   const navigate = useNavigate();
   //   document.body.style.backgroundImage = "#1F2937";
   const submitionfunction = async (e) => {

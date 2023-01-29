@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b82581e2.css",
-    "main.js": "/static/js/main.033ca917.js",
-    "static/media/oursponsers.png": "/static/media/oursponsers.ce16b7eccc8ed4bce6db.png",
-    "static/media/2(tc).png": "/static/media/2(tc).87405f427085c213fa94.png",
+    "main.css": "/static/css/main.97af06cb.css",
+    "main.js": "/static/js/main.ac072705.js",
     "static/media/regisbg.png": "/static/media/regisbg.477bbaf1adfcd45f8455.png",
-    "static/media/gallery.png": "/static/media/gallery.78b278f730cebfcd6468.png",
-    "static/media/rule2.png": "/static/media/rule2.65d0dc3e86ea50f5133e.png",
-    "static/media/rule1.png": "/static/media/rule1.8ffc8add1ec49a97236a.png",
-    "static/media/1.png": "/static/media/1.e1a481144a56dcae2b9e.png",
-    "static/media/6.png": "/static/media/6.3b9a6bbf8389168ed0b5.png",
-    "static/media/xyzsponser.png": "/static/media/xyzsponser.88298d23ea4c19414907.png",
-    "static/media/elearnmarketsponser.jpeg": "/static/media/elearnmarketsponser.18d4213f81a295359f40.jpeg",
-    "static/media/arrow_sponser.jpeg": "/static/media/arrow_sponser.2a3ae540d710f4c5b3ff.jpeg",
+    "static/media/gallery.png": "/static/media/gallery.079c131ca376c5db785f.png",
+    "static/media/contactus.png": "/static/media/contactus.81b1938fa932a5dbc57a.png",
+    "static/media/oursponsers.png": "/static/media/oursponsers.59eb674ccfeba1cd3f39.png",
+    "static/media/2(tc).png": "/static/media/2(tc).fd6e0b855f845505e118.png",
+    "static/media/rule1.png": "/static/media/rule1.280bc39036ce2f8fd428.png",
+    "static/media/rule2.png": "/static/media/rule2.546afcc97189edec4fae.png",
+    "static/media/1.png": "/static/media/1.276e0cec9b042214f6c8.png",
+    "static/media/elearnmarketsponser.jpeg": "/static/media/elearnmarketsponser.efa604534e455c0fe283.jpeg",
     "static/media/logoWhite.png": "/static/media/logoWhite.be0502bb19865320082b.png",
-    "static/media/stockpe_sponser.jpeg": "/static/media/stockpe_sponser.3e5503f197e10391d1ca.jpeg",
-    "static/media/grabon_sponser.jpeg": "/static/media/grabon_sponser.2868621e0254df461e37.jpeg",
+    "static/media/arrow_sponser.jpeg": "/static/media/arrow_sponser.77edc123dee6bbab1e95.jpeg",
+    "static/media/stockpe_sponser.jpeg": "/static/media/stockpe_sponser.5b73297974b0aa160fb3.jpeg",
+    "static/media/xyzsponser.png": "/static/media/xyzsponser.d37a267a65bb0892cb50.png",
     "index.html": "/index.html",
-    "main.b82581e2.css.map": "/static/css/main.b82581e2.css.map",
-    "main.033ca917.js.map": "/static/js/main.033ca917.js.map"
+    "main.97af06cb.css.map": "/static/css/main.97af06cb.css.map",
+    "main.ac072705.js.map": "/static/js/main.ac072705.js.map"
   },
   "entrypoints": [
-    "static/css/main.b82581e2.css",
-    "static/js/main.033ca917.js"
+    "static/css/main.97af06cb.css",
+    "static/js/main.ac072705.js"
   ]
 }

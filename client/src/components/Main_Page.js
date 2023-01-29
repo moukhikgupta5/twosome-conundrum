@@ -2,6 +2,7 @@ import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../assets/css/main_page_final.css";
 import { useNavigate } from "react-router-dom";
+import React, { useEffect } from 'react';
 
 const Main_Site_Page = () => {
   const [index, setIndex] = useState(0);
@@ -10,6 +11,9 @@ const Main_Site_Page = () => {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+  useEffect(() => {
+    document.title = 'Twosome-Conundrum';
+  }, []);
   return (
     <div>
       <section id="page1">
@@ -141,7 +145,7 @@ const Main_Site_Page = () => {
         <div className="contact_us">
           <img
             className="event_page"
-            src={require("../assets/images/main_page_final_images/6.png")}
+            src={require("../assets/images/main_page_final_images/contactus.png")}
             alt="Contact Us"
           />
 
