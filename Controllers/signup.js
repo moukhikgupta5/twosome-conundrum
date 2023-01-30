@@ -10,7 +10,7 @@ const signuphandler = async (req, res) => {
     const Memebercheck = await dataModel.findOne({
       Memeber_email: input_Data.Memeber_email,
     });
-    if (Leadercheck || Memebercheck) {
+    if (Leadercheck) {
       res.json({
         message: "Team leader or Team Memeber already signed up",
         correct: false,
