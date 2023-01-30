@@ -70,7 +70,7 @@ const Main_Site_Page = () => {
       </section>
 
       <section id="Sponsers">
-        <div className="sponsers">
+        <div className="sponsors">
           <h1>Our Sponsers</h1>
           {/* <img
             className="event_page"
