@@ -60,7 +60,7 @@ const Registration_form = () => {
     } else {
       swal({
         title: "OOPS!",
-        text: "Either you or your partner has already registered if not try again",
+        text: "You have already registered, if not try again after filling all the details",
         icon: "error",
       });
     }
