@@ -26,27 +26,27 @@ const ParticipantsSchema = new mongoose.Schema({
   },
   Team_Member_Name: {
     type: String,
-    required: true,
+  
   },
   Memeber_roll_no: {
     type: String,
-    required: true,
+
   },
   Memeber_email: {
     type: String,
-    required: true,
+   
   },
   Member_Contact: {
     type: String,
-    required: true,
+   
   },
   Member_year: {
     type: String,
-    required: true,
+   
   },
   Member_branch: {
     type: String,
-    required: true,
+   
   },
   Team_Name: {
     type: String,
