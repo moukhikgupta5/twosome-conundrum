@@ -147,10 +147,10 @@ const Registration_form = () => {
             <label for="Year">Your Year</label>
 
             <select name="year" id="leader_year">
-              <option value="Fresher(1st Year)">Fresher(1st Year)</option>
-              <option value="Sophomore(2nd Year)">Sophomore(2nd Year)</option>
-              <option value="Junior(3rd Year)">Junior(3rd Year)</option>
-              <option value="Senior(4th Year)">Senior(4th Year)</option>
+              <option value="Fresher(1st Year)">1st Year</option>
+              <option value="Sophomore(2nd Year)">2nd Year</option>
+              <option value="Junior(3rd Year)">3rd Year</option>
+              <option value="Senior(4th Year)">4th Year</option>
             </select>
           </div>
           <br />
@@ -212,10 +212,10 @@ const Registration_form = () => {
           <div className="flex_header">
             <label for="Year">Partner's Year</label>
             <select name="year" id="member_year">
-              <option value="Fresher(1st Year)">Fresher(1st Year)</option>
-              <option value="Sophomore(2nd Year)">Sophomore(2nd Year)</option>
-              <option value="Junior(3rd Year)">Junior(3rd Year)</option>
-              <option value="Senior(4th Year)">Senior(4th Year)</option>
+              <option value="Fresher(1st Year)">1st Year</option>
+              <option value="Sophomore(2nd Year)">2nd Year</option>
+              <option value="Junior(3rd Year)">3rd Year</option>
+              <option value="Senior(4th Year)">4th Year</option>
             </select>
           </div>
           <br />
