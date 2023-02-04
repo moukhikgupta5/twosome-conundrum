@@ -7,7 +7,7 @@ const fs = require("fs");
 const bodyParser = require("body-parser");
 const { default: mongoose } = require("mongoose");
 app.use(cors({
-  origin:"https://netlify.app",
+  origin:"https://twosome-conundrum.netlify.app/",
   credentials:true,
 }));
 app.use(express.json());
