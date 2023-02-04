@@ -14,7 +14,7 @@ const Admin_clue_auth = () => {
     // console.log(clue_data)
     // console.log(REQUEST_URL);
     let optionItems = clue_data.map((item) =>
-        <option key={item.id} value={item.id + item}>{item.name}</option>
+        <option key={item.id} value={item.id}>{item.name}</option>
     );
     const Clue_allow=async (e)=>{
         e.preventDefault();
