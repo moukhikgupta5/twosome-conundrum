@@ -43,19 +43,6 @@ const Login_form = () => {
             });
         }
     }
-    const Check_login = async () => {
-        const datac = document.cookie
-        const login_respo = await axios.get("https://twosome-conundrum.cyclic.app/login_auth",datac);
-        // console.log(login_respo);
-        if (login_respo.data.allow===true) {
-            console.log("navigating");
-            navigate("/clues_panel");
-        }
-    }
-    useEffect(() => {
-        Check_login();
-        console.log("sdiufh")
-    }, [])
 
 
     return (
