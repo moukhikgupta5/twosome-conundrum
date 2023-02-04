@@ -6,9 +6,6 @@ import { useNavigate } from "react-router-dom";
 import React, { useEffect } from 'react';
 
 const Registration_form = () => {
-  const makeActive = axios.get(
-    "https://twosome-conundrum.cyclic.app"
-  );
   useEffect(() => {
     document.title = 'Register|Twosome-Conundrum';
   }, []);
@@ -60,11 +57,11 @@ const Registration_form = () => {
     } else {
       swal({
         title: "OOPS!",
-        text: "You have already registered, if not try again after filling all the details",
+        text: "Either you or your partner has already registered if not try again",
         icon: "error",
       });
     }
-    if (responde.data.correct == true) {
+    if (responde.data.correct === true) {
       navigate("/");
     }
   };
@@ -147,10 +144,10 @@ const Registration_form = () => {
             <label for="Year">Your Year</label>
 
             <select name="year" id="leader_year">
-              <option value="Fresher(1st Year)">1st Year</option>
-              <option value="Sophomore(2nd Year)">2nd Year</option>
-              <option value="Junior(3rd Year)">3rd Year</option>
-              <option value="Senior(4th Year)">4th Year</option>
+              <option value="Fresher(1st Year)">Fresher(1st Year)</option>
+              <option value="Sophomore(2nd Year)">Sophomore(2nd Year)</option>
+              <option value="Junior(3rd Year)">Junior(3rd Year)</option>
+              <option value="Senior(4th Year)">Senior(4th Year)</option>
             </select>
           </div>
           <br />
@@ -212,10 +209,10 @@ const Registration_form = () => {
           <div className="flex_header">
             <label for="Year">Partner's Year</label>
             <select name="year" id="member_year">
-              <option value="Fresher(1st Year)">1st Year</option>
-              <option value="Sophomore(2nd Year)">2nd Year</option>
-              <option value="Junior(3rd Year)">3rd Year</option>
-              <option value="Senior(4th Year)">4th Year</option>
+              <option value="Fresher(1st Year)">Fresher(1st Year)</option>
+              <option value="Sophomore(2nd Year)">Sophomore(2nd Year)</option>
+              <option value="Junior(3rd Year)">Junior(3rd Year)</option>
+              <option value="Senior(4th Year)">Senior(4th Year)</option>
             </select>
           </div>
           <br />

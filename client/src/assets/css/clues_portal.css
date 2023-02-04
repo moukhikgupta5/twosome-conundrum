@@ -1,0 +1,160 @@
+/* .cluepage{
+    background-image: url(../images//cluesPortal_images//cluesportal_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+} */
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #ff0707;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+
+html,body, .cluepage{
+    background-image: url(../images/form_images/regisbg.png);
+
+}
+.cluepage{ 
+
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.card_border{
+    width:fit-content;
+    max-width: 30rem;
+  /* color: #111827; */
+    height: 18rem;
+    /* max-height: 30rem; */
+}
+
+.clue_button{
+    display: flex;
+    justify-content: center;
+    position: -webkit-sticky; /* Safari */
+/* color: #ff0000; */
+    position:sticky;
+
+    top:0;
+    z-index: 9;
+    align-items: center;
+}
+.card-body{
+    width: 30rem;
+    flex-direction: column;
+}
+.cluepage{
+    margin: 0;
+	box-sizing: border-box;
+	font-family: "Fira sans", sans-serif;
+    color:black;
+}
+.cluefetch_button{
+    padding:1rem;
+    border-radius: 1rem;
+    margin-top:1rem;
+    border: 1.5px solid rgba(95, 124, 95, 0.926);
+    background-color:var(--grey);
+
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: -webkit-sticky; /* Safari */
+
+    position:sticky;
+    
+    top:1rem;
+    color: #EEE;
+	font-size:2rem;
+    background-color: #472222;
+    background-color: #472222;
+    color: #fff;
+    border:1px solid white;
+    background-color:rgb(149, 71, 71);
+    opacity: 0.7;
+    /* padding: 8px; */
+}
+.card{
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: none;
+    justify-content: center;
+    text-align: center;
+    /* background: linear-gradient(to right, var(--pink), var(--purple)); */
+    /* width: 26rem; */
+}
+
+.card-body{
+    
+	padding: 1rem;
+	border-radius: 4rem;
+    color: var(--light);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card-title{
+    font-size:3rem;
+    font-family:fantasy;
+    
+}
+.card-text{
+    text-align: center;
+    font-size:large;
+}
+.btn-primary{
+    color: var(--pink);
+	font-size: 2rem;
+	font-weight: 700;
+	background-image: linear-gradient(to right, var(--pink),rgb(77, 100, 165));
+	-webkit-background-clip: text;
+    border: none;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+	transition: 0.4s;
+    background-color: #472222;
+    -webkit-text-stroke:0.35px #EEE;
+}
+.btn-primary:hover{
+    border: 1px solid var(--light);
+    opacity: 0.8;
+    border-radius: 1rem;
+
+}
+.btn-primary:active{
+    opacity: 0.5;
+}
+
+
+
+.card_content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+.cluefetch_button:hover{
+    border: 1.5px solid black;
+    background-color: black;
+    color: white;
+    /* background-color: #ec3333f3; */
+    color: whitesmoke;
+
+
+}
+.card{
+    background-color:transparent;
+    margin-block: 0.5rem;
+    backdrop-filter:blur(120px);
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.37);
+    border-radius: 2rem;
+}

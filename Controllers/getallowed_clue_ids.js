@@ -1,3 +1,4 @@
+const CluesModel = require("../Models/clues_Model");
 const ParticipantsModel = require("../Models/participants_Model");
 const jwt = require("jsonwebtoken");
 const userclueshandler = async (req, res) => {
@@ -9,9 +10,16 @@ const userclueshandler = async (req, res) => {
       const userinfo = await ParticipantsModel.findById(payload.payload);
       console.log(userinfo);
       const clueids = userinfo.AllowedClues;
-      res.json({
+      console.log(clueids);
+      const users = [];
+for(const userId of clueids) {
+   let clues_data=await CluesModel.findById(userId);
+   users.push(clues_data);
+    }
+
+     res.json({
         message: "clues are here",
-        data: clueids,
+        data: users,
       });
     } else {
       res.json({

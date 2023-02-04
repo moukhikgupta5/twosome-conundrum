@@ -21,7 +21,7 @@ const Main_Site_Page = () => {
           <a className="btn btn-light" href="/register" role="button">
             REGISTER NOW
           </a>
-          <a className="btn btn-light" href="#" role="button">
+          <a className="btn btn-light" href="/login" role="button">
             LOGIN PORTAL
           </a>
         </div>
@@ -70,7 +70,7 @@ const Main_Site_Page = () => {
       </section>
 
       <section id="Sponsers">
-        <div className="sponsors">
+        <div className="sponsers">
           <h1>Our Sponsers</h1>
           {/* <img
             className="event_page"

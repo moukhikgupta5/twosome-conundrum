@@ -13,22 +13,29 @@ const loginhandler = async (req, res) => {
         const uid = userinfo._id;
         const jwt_key = process.env.JWT_SECRET_KEY;
         const token = jwt.sign({ payload: uid }, jwt_key);
-        res.cookie("islogedin", token);
+        res.cookie("islogedin", token,{httpOnly: false,expires:new Date(Date.now()+5654654654)});
         res.json({
           message: "user has loged in",
+          allow:true
         });
       } else {
         res.json({
           message: "passsword incorrect",
+          allow:false
         });
       }
     } else {
       res.json({
         message: "user not found",
+        allow:false
+
       });
     }
-    console.log(userinfo);
   } catch (err) {
+    res.json({
+      message:"some error in loginig in",
+      allow:false
+    })
     console.log(err);
   }
 };
