@@ -15,9 +15,8 @@ const loginhandler = async (req, res) => {
         const token = jwt.sign({ payload: uid }, jwt_key);
         res.cookie("islogedin", token,{
           expires:new Date(Date.now()+5654654654),
-          secure: env.ENVIRONMENT === 'LIVE',
-          sameSite: env.ENVIRONMENT === 'LIVE' ? 'none' : 'lax',
-          httpOnly: true,
+          sameSite: 'none' ,
+          httpOnly: false,
         });
         res.json({
           message: "user has loged in",
