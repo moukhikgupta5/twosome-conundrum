@@ -8,6 +8,9 @@ import { cookie,useCookies } from "react-cookie";
 axios.defaults.withCredentials = true;
 
 const Login_form = () => {
+    useEffect(() => {
+        document.title = 'Login|Twosome-Conundrum';
+      }, []);
     const [cookies, setCookie, removeCookie] = useCookies(['onboarded']);
     const [Leader_email, setLeader_email] = useState("");
     const [Password, setPassword] = useState("");

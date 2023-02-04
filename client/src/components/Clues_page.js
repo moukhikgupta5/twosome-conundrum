@@ -7,6 +7,9 @@ import Button from 'react-bootstrap/Button';
 import { cookie, Cookies, useCookies } from "react-cookie";
 axios.defaults.withCredentials = true;
 const Clues_page = () => {
+  useEffect(() => {
+    document.title = 'Clues|Twosome-Conundrum';
+  }, []);
   const datac = document.cookie;
   // document.body.style.backgroundColor ="linear-gradient(to right, #Ec4899, #8B5CF6);"
   const [cluesdata, setCluesdata] = useState()
