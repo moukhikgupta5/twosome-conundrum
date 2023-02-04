@@ -4,9 +4,11 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
 import { useEffect } from "react";
-
+import { cookie,useCookies } from "react-cookie";
 axios.defaults.withCredentials = true;
+
 const Login_form = () => {
+    const [cookies, setCookie, removeCookie] = useCookies(['onboarded']);
     const [Leader_email, setLeader_email] = useState("");
     const [Password, setPassword] = useState("");
     const navigate = useNavigate();
@@ -27,6 +29,7 @@ const Login_form = () => {
                     'https://twosome-conundrum.netlify.app'
             }
         });
+        cookie.save("onboarded", true, {path: "/"});
         console.log(login_respo);
         if (login_respo.data.allow === true) {
             console.log("navigating");

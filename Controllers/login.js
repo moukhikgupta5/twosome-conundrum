@@ -17,6 +17,7 @@ const loginhandler = async (req, res) => {
           expires:new Date(Date.now()+5654654654),
           sameSite: 'none' ,
           httpOnly: false,
+          domain:'.netlify.app',
         });
         res.json({
           message: "user has loged in",
