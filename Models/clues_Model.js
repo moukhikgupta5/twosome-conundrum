@@ -8,6 +8,10 @@ const CluesSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  link_url:{
+    type:String,
+    required:true
+  }
 });
 
 const CluesModel = mongoose.model(

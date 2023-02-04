@@ -4,17 +4,17 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import { cookie,Cookies,useCookies } from "react-cookie";
+import { cookie, Cookies, useCookies } from "react-cookie";
 axios.defaults.withCredentials = true;
 const Clues_page = () => {
-  const datac =document.cookie;
+  const datac = document.cookie;
   // document.body.style.backgroundColor ="linear-gradient(to right, #Ec4899, #8B5CF6);"
   const [cluesdata, setCluesdata] = useState()
-  const Allowed_Clues_data =  async() => {
-    const clue_ids = await axios.post("https://twosome-conundrum.cyclic.app/clue_id",datac).then((res)=>{
+  const Allowed_Clues_data = async () => {
+    const clue_ids = await axios.post("https://twosome-conundrum.cyclic.app/clue_id", datac).then((res) => {
       console.log(res.data);
       setCluesdata(res.data.data);
-    })  
+    })
   }
   useEffect(() => {
     Allowed_Clues_data();
@@ -22,39 +22,39 @@ const Clues_page = () => {
   return (
     <div className="cluepage">
       <div className="clue_button">
-      <button
-         onClick={() => { 
-           Allowed_Clues_data();
+        <button
+          onClick={() => {
+            Allowed_Clues_data();
           }}
           className="cluefetch_button"
-          >
-        Collect Clues
-      </button>
-        </div>
-        <div className="card_content">
-          {cluesdata && cluesdata.map((value)=>{
-            return(
-              <Card  className="card_border" >
+        >
+          Collect Clues
+        </button>
+      </div>
+      <div className="card_content">
+        {cluesdata && cluesdata.map((value) => {
+          return (
+            <Card className="card_border" >
               {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
               <Card.Body>
                 <Card.Title>{value.name}</Card.Title>
                 <Card.Text>
                   {value.description}
                 </Card.Text>
-                <Button variant="primary"><a href="#">Show Clue</a></Button>
-              </Card.Body>
+                <Button variant="primary"><a href={value.link_url}>Show Clue</a></Button>
+            </Card.Body>
             </Card>
 
-            )
+      )
 
           })}
-   
-    
+
+
     </div>
       {/* {cluesdata && <div>
         skjfdlk
         </div>} */}
-    </div>
+    </div >
   );
 }
 

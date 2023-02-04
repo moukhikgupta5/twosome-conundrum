@@ -3,6 +3,7 @@ import { useState } from "react";
 import axios from "axios"
 import swal from "sweetalert";
 // import {REQUEST_URL} from "./clue_id"
+axios.defaults.withCredentials = true;
 const Admin_clue_auth = () => {
     const [Leader_email, setLeader_email] = useState("");
     const [allowclueid, setAllowclueid] = useState("")
