@@ -12,7 +12,7 @@ const Clues_page = () => {
   const [cluesdata, setCluesdata] = useState()
   const Allowed_Clues_data = async () => {
     const clue_ids = await axios.post("https://twosome-conundrum.cyclic.app/clue_id", datac).then((res) => {
-      console.log(res.data);
+      // console.log(res.data);
       setCluesdata(res.data.data);
     })
   }
@@ -41,7 +41,7 @@ const Clues_page = () => {
                 <Card.Text>
                   {value.description}
                 </Card.Text>
-                <Button variant="primary"><a href={value.link_url}>Show Clue</a></Button>
+                <Button variant="primary"><a href={value.link_url} target="blank">Show Clue</a></Button>
             </Card.Body>
             </Card>
 

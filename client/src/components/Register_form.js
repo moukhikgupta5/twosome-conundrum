@@ -47,7 +47,7 @@ const Registration_form = () => {
       "https://twosome-conundrum.cyclic.app/signup",
       participants
     );
-    console.log(responde);
+    // console.log(responde);
     if (responde.data.correct === true) {
       swal({
         title: "Congratulations!",
