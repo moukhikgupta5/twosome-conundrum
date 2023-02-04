@@ -9,6 +9,12 @@ const { default: mongoose } = require("mongoose");
 app.use(cors({
   origin:"https://twosome-conundrum.netlify.app",
   credentials:true,
+  methods : ['GET','POST','DELETE','OPTIONS'],
+  allowedHeaders:[
+    'Access-Control-Allow-Origin',
+    'Content-Type',
+    'Authorization'
+  ]
 }));
 app.use(express.json());
 app.use(cookieparser());
