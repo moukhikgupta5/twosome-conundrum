@@ -8,13 +8,13 @@ axios.defaults.withCredentials = true;
 const Admin_clue_auth = () => {
     const [Leader_email, setLeader_email] = useState("");
     let optionParticipants = participant_data.map((item) =>
-        <option key={item.email} value={item.email}>{item.no}</option>
+        <option key={item.email} value={item.email}>{item.no} {item.email}</option>
     );
     const [allowclueid, setAllowclueid] = useState("")
     // console.log(clue_data)
     // console.log(REQUEST_URL);
     let optionItems = clue_data.map((item) =>
-        <option key={item.id} value={item.id}>{item.name}</option>
+        <option key={item.id} value={item.id + item}>{item.name}</option>
     );
     const Clue_allow=async (e)=>{
         e.preventDefault();
@@ -40,6 +40,8 @@ const Admin_clue_auth = () => {
         console.log(Leader_email)
         console.log(allowclueid)
     }
+    const check = document.cookie;
+    if(check==="islogedin=yesIamAdmin4724"){
     return ( 
         <form>
             <label>Leader_email</label>
@@ -64,6 +66,10 @@ const Admin_clue_auth = () => {
             }}>Allow</button>
         </form>
      );
+    }
+    else{
+        return(<h1>Not Allowed</h1>);
+    }
 }
  
 export default Admin_clue_auth;
