@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const ParticipantsModel = require("../Models/participants_Model");
 const loginauthhandler = async (req, res) => {
   try {
-    const token = req.cookies.islogedin;
+    const token = req.body.islogedin;
     console.log(token)
     if (token) {
       const jwt_key = process.env.JWT_SECRET_KEY;

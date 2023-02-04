@@ -44,9 +44,10 @@ const Login_form = () => {
         }
     }
     const Check_login = async () => {
-        const login_respo = await axios.get("https://twosome-conundrum.cyclic.app/login_auth");
+        const datac = document.cookie
+        const login_respo = await axios.get("https://twosome-conundrum.cyclic.app/login_auth",datac);
         // console.log(login_respo);
-        if (document.cookie.islogedin) {
+        if (login_respo.data.allow===true) {
             console.log("navigating");
             navigate("/clues_panel");
         }
