@@ -20,12 +20,12 @@ const Login_form = () => {
         const login_respo = await axios.post("https://twosome-conundrum.cyclic.app/login", login_data, {
             withCredentials: true,
             crossDomain: true,
-            headers: {
-                'Content-Type': 'application/json',
-                Accept: 'application/json',
-                'Access-Control-Allow-Origin':
-                    'https://twosome-conundrum.netlify.app'
-            }
+            // headers: {
+            //     'Content-Type': 'application/json',
+            //     Accept: 'application/json',
+            //     'Access-Control-Allow-Origin':
+            //         'https://twosome-conundrum.netlify.app'
+            // }
         });
         console.log(login_respo);
         if (login_respo.data.allow === true) {
