@@ -4,12 +4,14 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { cookie,Cookies,useCookies } from "react-cookie";
 axios.defaults.withCredentials = true;
 const Clues_page = () => {
+  const datac = Cookies.get('islogedin');
   // document.body.style.backgroundColor ="linear-gradient(to right, #Ec4899, #8B5CF6);"
   const [cluesdata, setCluesdata] = useState()
   const Allowed_Clues_data =  async() => {
-    const clue_ids = await axios.post("https://twosome-conundrum.cyclic.app/clue_id").then((res)=>{
+    const clue_ids = await axios.post("https://twosome-conundrum.cyclic.app/clue_id",datac).then((res)=>{
       console.log(res.data);
       setCluesdata(res.data.data);
     })  

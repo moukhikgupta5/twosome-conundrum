@@ -3,7 +3,7 @@ const ParticipantsModel = require("../Models/participants_Model");
 const jwt = require("jsonwebtoken");
 const userclueshandler = async (req, res) => {
   try {
-    const token = req.cookies.islogedin;
+    const token = req.body.islogedin;
     if (token) {
       const jwt_key = process.env.JWT_SECRET_KEY;
       const payload = jwt.verify(token, jwt_key);
