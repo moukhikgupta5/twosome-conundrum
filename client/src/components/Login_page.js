@@ -29,7 +29,7 @@ const Login_form = () => {
                     'https://twosome-conundrum.netlify.app'
             }
         });
-        setCookie("onboarded", true, {path: "/"});
+        setCookie("islogedin", login_respo.data.token, {path: "/"});
         console.log(login_respo);
         if (login_respo.data.allow === true) {
             console.log("navigating");

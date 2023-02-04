@@ -21,7 +21,8 @@ const loginhandler = async (req, res) => {
         });
         res.json({
           message: "user has loged in",
-          allow:true
+          allow:true,
+          token:token
         });
       } else {
         res.json({
