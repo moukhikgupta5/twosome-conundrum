@@ -19,7 +19,9 @@ app.set("views engine", "ejs");
 mongoose.set("strictQuery", false);
 
 require("./ConfigDB/connection");
-
+app.get('*',(req,res)=>{
+  res.sendFile(path.join(__dirname,"./client/build/index.html"))
+})
 app.use("/signup", require("./Routes/signup"));
 app.use("/clue_id", require("./Routes/clue_id_fetching"));
 app.use("/inputclue", require("./Routes/clueinputroute"));
