@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import { cookie,Cookies,useCookies } from "react-cookie";
 axios.defaults.withCredentials = true;
 const Clues_page = () => {
-  const datac =cookie.get('islogedin');
+  const datac =document.cookie;
   // document.body.style.backgroundColor ="linear-gradient(to right, #Ec4899, #8B5CF6);"
   const [cluesdata, setCluesdata] = useState()
   const Allowed_Clues_data =  async() => {
