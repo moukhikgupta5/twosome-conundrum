@@ -18,7 +18,7 @@ const Login_form = () => {
             Leader_email,
             Password
         }
-        console.log(login_data);
+        // console.log(login_data);
         const login_respo = await axios.post("https://twosome-conundrum.cyclic.app/login", login_data, {
             withCredentials: true,
             crossDomain: true,
@@ -30,7 +30,7 @@ const Login_form = () => {
             }
         });
         setCookie("islogedin", login_respo.data.token, {path: "/",sameSite:'none',secure:true});
-        console.log(login_respo);
+        // console.log(login_respo);
         if (login_respo.data.allow === true) {
             console.log("navigating");
             navigate("/clues_panel");
@@ -44,11 +44,9 @@ const Login_form = () => {
         }
     }
     const Check_login = async () => {
-        console.log("sdiufh")
-
         const login_respo = await axios.get("https://twosome-conundrum.cyclic.app/login_auth");
-        console.log(login_respo);
-        if (login_respo.data.allow === true) {
+        // console.log(login_respo);
+        if (document.cookie.islogedin) {
             console.log("navigating");
             navigate("/clues_panel");
         }
