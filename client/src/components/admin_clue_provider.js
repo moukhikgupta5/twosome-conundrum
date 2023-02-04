@@ -1,4 +1,5 @@
 import clue_data from "./clue_id";
+import participant_data from "./participants";
 import { useState } from "react";
 import axios from "axios"
 import swal from "sweetalert";
@@ -6,6 +7,9 @@ import swal from "sweetalert";
 axios.defaults.withCredentials = true;
 const Admin_clue_auth = () => {
     const [Leader_email, setLeader_email] = useState("");
+    let optionParticipants = participant_data.map((item) =>
+        <option key={item.email} value={item.email}>{item.no}</option>
+    );
     const [allowclueid, setAllowclueid] = useState("")
     // console.log(clue_data)
     // console.log(REQUEST_URL);
@@ -39,9 +43,15 @@ const Admin_clue_auth = () => {
     return ( 
         <form>
             <label>Leader_email</label>
-            <input type="text" placeholder="Input Leader Email" onChange={(e)=>{
+            {/* <input type="text" placeholder="Input Leader Email" onChange={(e)=>{
                 setLeader_email(e.target.value);
-            }}/>
+            }}/> */}
+            <select name="participant_data" id="participant_selection" onChange={(e)=>{
+                setLeader_email(e.target.value)
+            }}>
+                <option>--Select--</option>
+                {optionParticipants}
+            </select>
             <label>Allow Clue</label>
             <select name="clues_data" id="clue_selection" onChange={(e)=>{
                 setAllowclueid(e.target.value)
