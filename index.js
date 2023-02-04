@@ -12,7 +12,7 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(cookieparser());
-
+app.use(express.urlencoded({extended:false}));
 app.use(express.static(__dirname));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("views engine", "ejs");
