@@ -1,184 +1,227 @@
-const clue_data=[{
-    name:"Autopsy(Kumkum)",
-    id:"63de93590dfcdbd22460e452"
-},
-{
-    name:"Autopsy(Prachi)",
-    id:"63de93ce0dfcdbd22460e454"
-},
-{
-    name:"Call Records(Bhavuk)",
-    id:"63de94770dfcdbd22460e456"
-},
-{
-    name:"Call Records(Divyansh)",
-    id:"63de94a00dfcdbd22460e458"
-},
-{
-    name:"Call Records(Guarisha)",
-    id:"63de94c20dfcdbd22460e45a"
-},
-{
-    name:"Call Records(Kumkum)",
-    id:"63de94f80dfcdbd22460e45c"
-},
-{
-    name:"Call Records(Manager)",
-    id:"63de951b0dfcdbd22460e45e"
-},
-{
-    name:"Call Records(Prachi)",
-    id:"63de95350dfcdbd22460e460"
-},
-{
-    name:"Call Records(Sanhita)",
-    id:"63de95500dfcdbd22460e462"
-},
-{
-    name:"Call Records(Sanket)",
-    id:"63de956b0dfcdbd22460e464"
-},
-{
-    name:"Call Records(Servent)",
-    id:"63de95930dfcdbd22460e466"
-},
-{
-    name:"Call Records(Medios)",
-    id:"63de95a90dfcdbd22460e468"
-},{
-    name:"Car Report(Story 1)",
-    id:"63deaa99e3f8c96aa8625842"
-},
-{
-    name:"Character Sketch(Jatin)",
-    id:"63deab1ce3f8c96aa8625844"
-},
-{
-    name:"Character Sketch(Kumkum)",
-    id:"63deab90e3f8c96aa8625846"
-},
-{
-    name:"Character Sketch(Manager)",
-    id:"63deabd0e3f8c96aa8625848"
-},
-{
-    name:"Character Sketch(Nishant)",
-    id:"63deabede3f8c96aa862584a"
-},
-{
-    name:"Character Sketch(Sanket)",
-    id:"63deac06e3f8c96aa862584c"
-},
-{
-    name:"Character Sketch(Servent)",
-    id:"63deac1de3f8c96aa862584e"
-},
-{
-    name:"Evidences(CCTV)",
-    id:"63deb257fb76150c3e6fd834"
-},
-{
-    name:"Evidences(CD)",
-    id:"63deb274fb76150c3e6fd836"
-},
-{
-    name:"Evidences(Letter Report)",
-    id:"63deb291fb76150c3e6fd838"
-},{
-    name:"Evidences(Prachi Letter)",
-    id:"63deb2adfb76150c3e6fd83a"
-},
-{
-    name:"Evidences(Picture)",
-    id:"63deb2cffb76150c3e6fd83c"
-},
-{
-    name:"Investigation Report(Kumkum e1)",
-    id:"63deb401fb76150c3e6fd83e"
-},
-{
-    name:"Investigation Report(Kumkum e2)",
-    id:"63deb41cfb76150c3e6fd840"
-},
-{
-    name:"Investigation Report(Prachi e1)",
-    id:"63deb432fb76150c3e6fd842"
-},
-{
-    name:"Investigation Report(Prachi e2)",
-    id:"63deb448fb76150c3e6fd844"
-},
-{
-    name:"Investigation Report(Prachi e3)",
-    id:"63deb45efb76150c3e6fd846"
-},
-{
-    name:"Investigation Report(Prachi e4)",
-    id:"63deb476fb76150c3e6fd848"
-},
-{
-    name:"Prespection",
-    id:"63deb4a2fb76150c3e6fd84a"
-},
-{
-    name:"Statement(Bhavuk)",
-    id:"63deb611fb76150c3e6fd84c"
-},
-{
-    name:"Statement(Divyansh 1)",
-    id:"63deb63afb76150c3e6fd84e"
-},
-{
-    name:"Statement(Divyansh 2)",
-    id:"63deb64efb76150c3e6fd850"
-},
-{
-    name:"Statement(Gaurisha 1)",
-    id:"63deb66efb76150c3e6fd852"
-},
-{
-    name:"Statement(Gaurisha 2)",
-    id:"63deb680fb76150c3e6fd854"
-},
-{
-    name:"Statement(Kumkum 1)",
-    id:"63deb69dfb76150c3e6fd856"
-},
-{
-    name:"Statement(Kumkum 2)",
-    id:"63deb6b3fb76150c3e6fd858"
-},
-{
-    name:"Statement(Manager)",
-    id:"63deb6cafb76150c3e6fd85a"
-},
-{
-    name:"Statement(Medical)",
-    id:"63deb6e2fb76150c3e6fd85c"
-},
-{
-    name:"Statement(Sanhita)",
-    id:"63deb6f8fb76150c3e6fd85e"
-},
-{
-    name:"Statement(Sanket)",
-    id:"63deb72bfb76150c3e6fd860"
-},
-{
-    name:"Statement(Servent 1)",
-    id:"63deb746fb76150c3e6fd862"
-},
-{
-    name:"Statement(Servent 2)",
-    id:"63deb757fb76150c3e6fd864"
-},
-{
-    name:"Statement(Service Centre)",
-    id:"63deb76efb76150c3e6fd866"
-},
-{
-    name:"Crime Report",
-    id:"63deb78afb76150c3e6fd868"
-}
+const clue_data=[
+    {
+        name:"Autopsy Sanhita",
+        id:"63de95bef21c25087bad05ec",
+    },
+    {
+        name:"Autopsy Arushi",
+        id:"63de9b66f21c25087bad061c",
+    },
+    {
+        name:"Autopsy Divyansh ",
+        id:"63de9bebf21c25087bad061e ",
+    },
+    {
+        name:"Autopsy Piyush",
+        id:"63de9bfff21c25087bad0620",
+    },
+    {
+        name:"Autopsy unknown 1",
+        id:"63de9c2ef21c25087bad0622",
+    },
+    {
+        name:"Autopsy unknown 2",
+        id:"63de9c3af21c25087bad0624",
+    },
+    {
+        name:"Autopsy Niket",
+        id:"63de9c4cf21c25087bad0626",
+    },
+    {
+        name:"Autopsy Anjali",
+        id:"63de9c5cf21c25087bad0628 ",
+    },
+    {
+        name:"Autopsy Aryan ",
+        id:"63de9c69f21c25087bad062a ",
+    },
+    {
+        name:"Autopsy Sanchita",
+        id:"63de9c7cf21c25087bad062c ",
+    },
+    {
+        name:"Autopsy Mohit",
+        id:"63de9cd8f21c25087bad0632 ",
+    },
+    {
+        name:"Autopsy Anisha",
+        id:"63de9ce9f21c25087bad0634",
+    },
+    {
+        name:"Call records after sanhita death- Arushi",
+        id:"63de9c046e7467cf794e2895 ",
+    },
+    {
+        name:"Call records after sanhita death- Kheman ",
+        id:"63de9c266e7467cf794e2897 ",
+    },
+    {
+        name:"Call records after sanhita death-Nikhita ",
+        id:"63de9c3b6e7467cf794e2899",
+    },
+    {
+        name:"Call records after sanhita death- Piyush ",
+        id:"63de9c576e7467cf794e289b",
+    },
+    {
+        name:"Call records after sanhita death- Ria",
+        id:"63de9c676e7467cf794e289d ",
+    },
+    {
+        name:"Call records after sanhita death- Sanhita",
+        id:"63de9c786e7467cf794e289f ",
+    },
+    {
+        name:"Call records after arushi death- arushi",
+        id:"63de9cd16e7467cf794e28a1 ",
+    },
+    {
+        name:"Call records after arushi death-kheman ",
+        id:"63de9ced6e7467cf794e28a3 ",
+    },
+    {
+        name:"Call records after arushi death- kriti",
+        id:"63de9d026e7467cf794e28a5 ",
+    },
+    {
+        name:"Call records after arushi death-nikhita ",
+        id:"63de9d156e7467cf794e28a7 ",
+    },
+    {
+        name:"Call records after divyansh death- divyansh ",
+        id:"63de9d336e7467cf794e28a9 ",
+    },
+    {
+        name:"Call records after divyansh death- ria",
+        id:"63de9d456e7467cf794e28ab ",
+    },
+    {
+        name:"Call records after piyush death- kheman",
+        id:"63de9d5c6e7467cf794e28ad ",
+    },
+    {
+        name:"Call records after piyush death-nikhita ",
+        id:"63de9d6b6e7467cf794e28af",
+    },
+    {
+        name:"Call records after piyush death- piyush",
+        id:"63de9d7f6e7467cf794e28b1 ",
+    },
+    {
+        name:"Aryan Case File ",
+        id:"63de9d30f21c25087bad0636",
+    },
+    {
+        name:"NGO Investigation",
+        id:"63de9d45f21c25087bad0638 ",
+    },
+    {
+        name:"CaseFile 2 ",
+        id:"63de9d5ff21c25087bad063a ",
+    },
+    {
+        name:"Characters- Aarushi ",
+        id:"63de9d78f21c25087bad063c ",
+    },
+    {
+        name:"Characters- Anusha ",
+        id:"63de9d89f21c25087bad063e",
+    },
+    {
+        name:"Characters- Divyansh",
+        id:"63de9da6f21c25087bad0640",
+    },
+    {
+        name:"Characters-Kheman ",
+        id:"63de9dc6f21c25087bad0642",
+    },
+    {
+        name:"Characters- Kriti",
+        id:"63de9dd4f21c25087bad0644 ",
+    },
+    {
+        name:"Characters- Nikhita",
+        id:"63de9de3f21c25087bad0646 ",
+    },
+    {
+        name:"Characters- Nishant",
+        id:"63de9df0f21c25087bad0648 ",
+    },
+    {
+        name:"Characters-Parth ",
+        id:"63de9dfdf21c25087bad064a",
+    },
+    {
+        name:"Characters-Piyush ",
+        id:"63de9e09f21c25087bad064c",
+    },
+    {
+        name:"Characters-Rakesh",
+        id:"63de9e16f21c25087bad064e ",
+    },
+    {
+        name:"Characters-Ria ",
+        id:"63de9e26f21c25087bad0650 ",
+    },
+    {
+        name:"Characters- Sanhita",
+        id:"63de9e33f21c25087bad0652 ",
+    },
+    {
+        name:"Medical report- Arushi",
+        id:"63de9e056e7467cf794e28b3",
+    },
+    {
+        name:"Medical report-Kheman ",
+        id:"63de9e1a6e7467cf794e28b5",
+    },
+    {
+        name:"Medical report- Ria",
+        id:"63de9e2c6e7467cf794e28b7",
+    },
+    {
+        name:"Statements after Sanhita's death- Kriti",
+        id:"63de9e606e7467cf794e28b9",
+    },
+    {
+        name:"Statements after Arushi death- Kheman",
+        id:"63de9e826e7467cf794e28bb ",
+    },
+    {
+        name:"Statements after Arushi death- Kriti",
+        id:"63de9e926e7467cf794e28bd ",
+    },
+    {
+        name:"Statements after Arushi death- Nikhita ",
+        id:"63de9ea16e7467cf794e28bf ",
+    },
+    {
+        name:"Statements after Piyush death- Kheman ",
+        id:"63de9ed96e7467cf794e28c1 ",
+    },
+    {
+        name:"Statements after Piyush death- Nikhita ",
+        id:"63de9eef6e7467cf794e28c3 ",
+    },
+    {
+        name:"Statements after Piyush death- Raghav ",
+        id:"63de9f086e7467cf794e28c5 ",
+    },
+    {
+        name:"CCTV Footage ",
+        id:"63de9fbe6e7467cf794e28c7 ",
+    },
+    {
+        name:"Sanhita Diary-Full ",
+        id:"63de9e53f21c25087bad0654 ",
+    },
+    {
+        name:"Sanhita Diary-Torn ",
+        id:"63de9e62f21c25087bad0656 ",
+    },
+    {
+        name:"Crime Report ",
+        id:"63de9e75f21c25087bad0658",
+    }
 ]
 module.exports=clue_data;
