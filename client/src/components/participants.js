@@ -171,10 +171,6 @@ const participant_data=[{
     no:"42"
 },
 {
-    email:"hchadha_be22@thapar.edu",
-    no:"43"
-},
-{
     email:"rkhanna2_be20@thapar.edu",
     no:"43"
 },
@@ -198,7 +194,10 @@ const participant_data=[{
     email:"armaanahujja7777@gmail.com",
     no:"48"
 },
-
+{
+    email:"hchadha_be22@thapar.edu",
+    no:"44"
+},
 
 ]
 module.exports=participant_data;
