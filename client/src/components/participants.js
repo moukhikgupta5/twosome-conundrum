@@ -87,7 +87,7 @@ const participant_data=[{
     no:"21"
 },
 {
-    email:"sagnohotri_be22@thapar.edu",
+    email:"sagnihotri_be22@thapar.edu",
     no:"22"
 },
 {
