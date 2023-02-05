@@ -182,6 +182,14 @@ const participant_data=[{
     email:"rgoyal5_be21@thapar.edu",
     no:"44"
 },
+{
+    email:"rashitoteja123@gmail.com",
+    no:"45"
+},
+{
+    email:"gmahajan9876@gmail.com",
+    no:"46"
+},
 
 
 ]
