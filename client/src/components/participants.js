@@ -178,6 +178,10 @@ const participant_data=[{
     email:"rkhanna2_be20@thapar.edu",
     no:"43"
 },
+{
+    email:"rgoyal5_be21@thapar.edu",
+    no:"44"
+},
 
 
 ]
